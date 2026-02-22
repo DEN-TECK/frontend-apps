@@ -1,5 +1,5 @@
-# Frontend team owns everything
+
 * @DEN-TECK/Frontend-team
 
-# DevOps owns pipelines
-/.github/workflows/ @DEN-TECK/Devops-team
+
+*/.github/workflows/ @DEN-TECK/Devops-team
