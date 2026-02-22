@@ -1,1 +1,9 @@
 
+# Platform owns everything initially
+* @DEN-TECK/platform
+
+# Frontend team owns frontend code
+/frontend/ @DEN-TECK/frontend
+
+# CI/CD pipelines
+/.github/workflows/ @DEN-TECK/devops
