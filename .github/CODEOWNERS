@@ -1,5 +1,4 @@
-# Frontend team owns all frontend code
+
 * @DEN-TECK/frontend-team
 
-# DevOps team owns workflows
 .github/workflows/ @DEN-TECK/devops-team
