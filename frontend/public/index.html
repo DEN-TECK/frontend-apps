@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isaac Dennis | DevOps & Fullstack Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; background: #f9fafb; color: #1f2937; line-height: 1.6; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header { background: #111827; color: #fff; padding: 3rem 1rem; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 1rem; }
+    .profile-pic { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #2563eb; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.25rem; }
+    header p { font-size: 1.2rem; color: #9ca3af; }
+
+    main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+
+    section { margin-bottom: 2rem; background: #fff; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    h2 { margin-bottom: 1rem; font-size: 1.5rem; color: #111827; border-bottom: 2px solid #2563eb; display: inline-block; padding-bottom: 0.25rem; }
+
+    ul.skills, ul.projects { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    ul.skills li { background: #e0f2fe; color: #0369a1; padding: 0.5rem 1rem; border-radius: 999px; font-weight: bold; font-size: 0.9rem; }
+    ul.projects li { background: #fef3c7; color: #78350f; padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: 500; }
+
+    .app-container { min-height: 300px; border: 2px dashed #9ca3af; display: flex; align-items: center; justify-content: center; margin-top: 1rem; border-radius: 0.5rem; background-color: #f3f4f6; }
+
+    footer { text-align: center; padding: 1rem; background: #111827; color: #d1d5db; margin-top: 2rem; font-size: 0.9rem; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      ul.skills, ul.projects { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="den.jpeg" alt="Isaac Dennis" class="profile-pic">
+    <h1>Isaac Dennis</h1>
+    <p>DevOps & CLOUD Engineer | Cloud & Kubernetes Specialist | Canada-ready</p>
+  </header>
+
+  <main>
+    <!-- About Me -->
+    <section>
+      <h2>About Me</h2>
+      <p>I am a Canadian job-ready DevOps and Fullstack Engineer with hands-on experience in AWS, Terraform, Kubernetes, Argo CD, CI/CD pipelines, Docker, and cloud-native deployments. I love automating workflows, deploying scalable systems, and optimizing developer productivity.</p>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>AWS</li>
+        <li>Terraform</li>
+        <li>Kubernetes</li>
+        <li>Argo CD</li>
+        <li>CI/CD</li>
+        <li>Docker</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>Linux</li>
+        <li>Git & GitHub Actions</li>
+      </ul>
+    </section>
+
+    <!-- Experience -->
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>DevOps Engineer</strong> – FullProject Inc. (2025–2026)<br>
+            Managed multi-environment Terraform deployments, EKS clusters, Argo CD pipelines, and automated CI/CD with GitHub Actions.</li>
+        <li><strong>Fullstack Developer</strong> – Freelance Projects (2024–2025)<br>
+            Developed and deployed frontend and backend applications using React.js, Node.js, Docker, and AWS services.</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2>Projects / Live App</h2>
+      <ul class="projects">
+        <li>FullProject: Kubernetes-based app with CI/CD via GitHub Actions & Argo CD</li>
+        <li>Terraform AWS Multi-Environment Infrastructure</li>
+        <li>Frontend App: React.js project live in AWS LoadBalancer</li>
+      </ul>
+      <div class="app-container" id="root">
+        <p>App will render here (attach your app.js)</p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>Bachelor’s in Computer Science – University of XYZ (2020–2024)</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:isaac@example.com">isaac@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/dennis8050" target="_blank">github.com/dennis8050</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/isaac-dennis" target="_blank">linkedin.com/in/isaac-dennis</a></p>
+      <p>Phone: +1 (555) 123-4567</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Isaac Dennis. All rights reserved.
+  </footer>
+
+  <!-- Mount your JS app -->
+  <script src="app.js"></script>
+</body>
+</html>
